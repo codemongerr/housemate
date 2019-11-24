@@ -302,6 +302,9 @@ main {
   text-transform: uppercase;
   font-weight: 700;
   transition: all 0.35s ease-in-out;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 
 #mc_embed_signup .button:hover {
