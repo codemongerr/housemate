@@ -294,9 +294,6 @@ main {
 }
 
 #mc_embed_signup .button {
-  position: absolute;
-  right: 2px;
-  top: 2px;
   height: 36px;
   background-color: #ffe01a;
   color: #000;
@@ -355,6 +352,16 @@ main {
 
   #mc_embed_signup_scroll {
     width: 70%;
+  }
+
+  #mc_embed_signup input.email {
+    padding-right: 120px;
+  }
+
+  #mc_embed_signup .button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
   }
 }
 
