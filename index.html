@@ -170,6 +170,18 @@
           ></div>
         </div>
       </main>
+      <footer>
+        <span
+          >&copy 2019 - <span id="copy-current-year"></span> HouseMate | All
+          Rights Reserved</span
+        >
+      </footer>
     </div>
+    <script>
+      const currentYearEl = document.getElementById("copy-current-year");
+      const now = new Date();
+      const currentYear = now.getFullYear();
+      currentYearEl.innerHTML = currentYear;
+    </script>
   </body>
 </html>

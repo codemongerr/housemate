@@ -270,7 +270,7 @@ p {
 }
 
 main {
-  padding: 8% 0;
+  padding: 6% 0;
 }
 
 .subsscribe-heading {
@@ -349,6 +349,12 @@ main {
   display: inline-block;
   vertical-align: middle;
   margin: 0 5px;
+}
+
+footer {
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
 }
 
 @media screen and (min-width: 991px) {
